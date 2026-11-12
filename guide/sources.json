@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-11-12T12:40:27.272704+00:00",
+  "scope": "Checked official pages only; no advertising API calls. Not a complete refresh of the inherited corpus.",
+  "facts": [
+    {
+      "id": "F01-version-epk",
+      "claim": "Документация сохраняет название «API Директа версии 5», но для ЕПК прямо указан адрес https://api.direct.yandex.com/v501/. ЕПК создаётся как UnifiedCampaign; TEXT_CAMPAIGN устарел и оставлен для совместимости. Сервис Reports также документирует v501, в том числе JSON URL /json/v501/reports.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/objects/campaign",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Не заменять автоматически все вхождения v5 на v501: endpoint выбирается по текущему описанию сервиса, а XML namespace Reports в спецификации всё ещё /v5/reports. Дополнительные первичные источники: https://yandex.ru/dev/direct/doc/ru/reports ; https://yandex.ru/dev/direct/doc/ru/spec ."
+    },
+    {
+      "id": "F02-sandbox",
+      "claim": "С 15 июля 2026 года песочница API больше недоступна: это прямо указано в истории изменений. Примеры с api-sandbox не следует выдавать за рабочий учебный контур.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/changelog",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Проверено по документации; запросы к sandbox и production API не выполнялись. Офлайн-фикстуры — решение проекта, а не обещанная Яндексом замена песочницы."
+    },
+    {
+      "id": "F03-reports-http",
+      "claim": "Для Reports 200 означает готовый отчёт; 201 — постановку в офлайн-очередь; 202 — отчёт ещё формируется. Документированы также 400 (запрос либо лимит очереди), 500 (ошибка формирования на сервере) и 502 (серверный предел времени обработки). 201/202 нельзя считать данными отчёта.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/codes",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Страница mode уточняет, что 200 приходит и после готовности офлайн-отчёта, хотя краткая таблица codes описывает его как онлайн: https://yandex.ru/dev/direct/doc/ru/mode . При 500 mode разрешает повторную попытку и рекомендует поддержку при повторении; это не универсальная политика повторов изменяющих методов."
+    },
+    {
+      "id": "F04-reports-polling-identity",
+      "claim": "Офлайн-отчёт получают повторением запроса с теми же параметрами; retryIn задаёт рекомендованный интервал в секундах. ReportName обязателен и уникален для пользователя в офлайн-режиме: то же имя с другими параметрами существующего или ожидающего отчёта вызывает ошибку.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/spec",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Алгоритм polling: https://yandex.ru/dev/direct/doc/ru/mode ; единицы retryIn: https://yandex.ru/dev/direct/doc/ru/headers . Сохранение имени и параметров между polling-запросами следует из этого контракта; менять ReportName на каждом опросе нельзя."
+    },
+    {
+      "id": "F05-units",
+      "claim": "Units — баллы нагрузки API, а не валюта рекламного бюджета. Заголовок Units содержит «расход запроса / остаток / суточный лимит», Units-Used-Login указывает владельца списанных баллов. Допускается не более пяти одновременных API-запросов от рекламодателя; баллы могут списываться и за ошибки.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/concepts/units",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Сам API официально бесплатен: https://yandex.ru/dev/direct/doc/ru/concepts/overview . Расход баллов не равен списанию денег за рекламу. У Reports есть отдельные ограничения, их нельзя выводить из общего лимита: https://yandex.ru/dev/direct/doc/ru/restrictions ."
+    },
+    {
+      "id": "F06-money-currency-vat",
+      "claim": "Денежные параметры кампании передаются целыми числами в валюте пользователя, умноженными на 1 000 000. Reports по умолчанию возвращает микросуммы; returnMoneyInMicros:false даёт суммы с двумя десятичными знаками. IncludeVAT обязателен и задаёт учёт НДС; Revenue из Метрики от IncludeVAT не зависит.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/money",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Дополнительные источники: https://yandex.ru/dev/direct/doc/ru/objects/campaign ; https://yandex.ru/dev/direct/doc/ru/headers ; https://yandex.ru/dev/direct/doc/ru/spec . Денежные значения фильтров Reports всегда микросуммы даже при returnMoneyInMicros:false. Нельзя автоматически считать все возвращаемые суммы рублями или с НДС."
+    },
+    {
+      "id": "F07-create-state-status",
+      "claim": "У кампании State отражает состояние показов, Status — итог модерации. SUSPENDED означает остановку владельцем через suspend или интерфейс; OFF включает черновики и иные причины неактивности. DRAFT означает, что объект создан и ещё не отправлен на модерацию. Создание не даёт универсальной гарантии State=SUSPENDED; add, moderate, suspend и resume — разные операции.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/objects/campaign",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Методы и состояния объявлений: https://yandex.ru/dev/direct/doc/ru/objects/ad . Обобщение о гарантии SUSPENDED — вывод из контракта состояний, а не цитата о едином начальном состоянии всех объектов. В campaigns.add нет входного поля State; условия показов включают принятую модерацию и средства: https://yandex.ru/dev/direct/doc/ru/campaigns/add ."
+    },
+    {
+      "id": "F08-get-readback",
+      "claim": "get получает явно перечисленные FieldNames и фильтрует через SelectionCriteria. В Campaigns.get States/Statuses — критерии отбора, а State/Status — возвращаемые поля, а не команды управления. get молча игнорирует отсутствующие, удалённые и чужие ID. Поэтому пустая выборка не подтверждает ни остановку, ни успешный откат создания.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/best-practice/get",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Схема Campaigns.get: https://yandex.ru/dev/direct/doc/ru/campaigns/get . Readback после записи должен проверять конкретные ID и нужные поля с учётом доступа и пагинации. Гарантия read-after-write, время сходимости и универсальная идемпотентность add в проверенных страницах не найдены: UNKNOWN."
+    },
+    {
+      "id": "F09-reports-freshness",
+      "claim": "Статистика может уточняться; обычная стабилизация занимает до трёх дней, иногда корректируются более ранние даты. Для обновления базы документированы Changes.check с BorderDate либо Reports DateRangeType:AUTO. Данные Метрики могут запаздывать на несколько часов.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/actual",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Задержка Метрики: https://yandex.ru/dev/direct/doc/ru/restrictions . Свежий HTTP 200 означает готовность файла, а не окончательность всех бизнес-данных. AUTO выбирает период до вчера, а не обещает потоковую статистику."
+    },
+    {
+      "id": "F10-attribution-2026",
+      "claim": "Текущая спецификация Reports перечисляет FCCD, LC, LSCCD и AUTO; без AttributionModels используется LC. Для устаревших LSC, FC, LYDC и LYDCCD описаны преобразования в действующие модели с предупреждением. В changelog от 21 апреля 2026 года старые модели объявлены недоступными для выбора.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/spec",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Источник даты изменения: https://yandex.ru/dev/direct/doc/ru/changelog . Модель и цели нужно сохранять вместе с отчётом; результаты разных моделей нельзя объединять как одну метрику без явного правила. Старые модели в архивных примерах не являются текущим перечнем."
+    },
+    {
+      "id": "F11-pagination",
+      "claim": "Общий get возвращает максимум 10 000 объектов за запрос. Для страниц служит Page с Limit/Offset. Наличие LimitedBy означает, что остались объекты; следующее значение Offset берётся из LimitedBy при том же SelectionCriteria. Без LimitedBy страница последняя.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/best-practice/get",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Это контракт методов get, не универсальная схема Reports. Текущая спецификация Reports отдельно описывает Page.Limit/Page.Offset и предел по умолчанию 1 000 000 строк: https://yandex.ru/dev/direct/doc/ru/spec ."
+    },
+    {
+      "id": "F12-partial-errors",
+      "claim": "У пакетных изменяющих методов элементы результата соответствуют входному массиву по порядку: успех даёт Id, успех с особенностями — Id и Warnings, неуспех — Errors без Id. Ошибка одного объекта обычно не отменяет остальные; отсутствие обязательного параметра может привести к ошибке всего запроса. Нужно разобрать каждый результат.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/best-practice/modify",
+      "checked_at": "2026-11-12T12:33:04Z",
+      "caveat": "Успешный HTTP-ответ не гарантирует успех всех объектов. Документация запрещает механически повторять операцию с явной ошибкой без её анализа/исправления. Не смешивать явный Errors и транспортный timeout: при timeout результат записи по этим страницам не определён."
+    },
+    {
+      "id": "F13-responsive-ad-migration",
+      "claim": "В ЕПК новые текстово-графические объявления заменяются комбинаторными. Ads.add с TextAd создаёт RESPONSIVE_AD; режим совместимости get может показывать лишь первые элементы материалов. Для полного чтения нужно сверять ResponsiveAdFieldNames.",
+      "url": "https://yandex.ru/dev/direct/doc/ru/update-tga",
+      "checked_at": "2026-11-12T12:40:27.272704+00:00",
+      "caveat": "Источник описывает изменение с 30 июня и начало обновления 14 июля. Точные поддерживаемые поля и число материалов проверяются по текущему методу; старый TextAd не служит универсальным payload нового типа."
+    }
+  ]
+}

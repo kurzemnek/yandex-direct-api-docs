@@ -1,0 +1,95 @@
+{
+  "routes": [
+    {
+      "id": "connect",
+      "title": "Подключить проект",
+      "path": "guide/recipes/01-connect.md",
+      "keywords": [
+        "доступ",
+        "подключить",
+        "OAuth",
+        "токен",
+        "API",
+        "авторизация",
+        "credentials"
+      ]
+    },
+    {
+      "id": "inventory",
+      "title": "Инвентарь кабинета",
+      "path": "guide/recipes/02-inventory.md",
+      "keywords": [
+        "настройки",
+        "кампании",
+        "inventory",
+        "get",
+        "campaigns",
+        "пагинация",
+        "состояния"
+      ]
+    },
+    {
+      "id": "reports",
+      "title": "Расходы и отчёты",
+      "path": "guide/recipes/03-reports.md",
+      "keywords": [
+        "Reports",
+        "расходы",
+        "отчет",
+        "статистика",
+        "валюта",
+        "НДС",
+        "метрики",
+        "retryIn"
+      ]
+    },
+    {
+      "id": "crm",
+      "title": "От кампаний до оплат",
+      "path": "guide/recipes/04-crm-attribution.md",
+      "keywords": [
+        "CRM",
+        "заказы",
+        "оплаты",
+        "деньги",
+        "время до денег",
+        "атрибуция",
+        "источник",
+        "лиды"
+      ]
+    },
+    {
+      "id": "spec",
+      "title": "Обоснованная спецификация кампании",
+      "path": "guide/recipes/05-campaign-spec.md",
+      "keywords": [
+        "спека",
+        "создать кампанию",
+        "бюджет",
+        "UTM",
+        "баннеры",
+        "заголовки",
+        "тексты",
+        "таргетинг",
+        "гипотеза"
+      ]
+    },
+    {
+      "id": "execute",
+      "title": "Создание, readback и восстановление",
+      "path": "guide/recipes/06-create-and-reconcile.md",
+      "keywords": [
+        "создать кампанию",
+        "add",
+        "write",
+        "изменить",
+        "пилот",
+        "UNKNOWN",
+        "reconcile",
+        "readback",
+        "сбой",
+        "запуск"
+      ]
+    }
+  ]
+}

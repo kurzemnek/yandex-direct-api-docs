@@ -1,0 +1,1060 @@
+{
+  "repository": "https://github.com/DragonSigh/yandex-direct-api-docs",
+  "base_commit": "22390cec4173c75a8821c2dd47d8aeec0e535650",
+  "snapshot_date": "2025-09-17",
+  "official_source": "https://yandex.com/dev/direct/doc/en/",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6ddc7c09fe9f5877ce7e2d10f84a47321fb3fe5c99a1d6b4de4c469356510aa6"
+    },
+    {
+      "path": "SITEMAP.md",
+      "sha256": "fc95a73d2ea2a9c18ded4bb1596a00cfa918c46c861f5ff31f4ccffce4cda597"
+    },
+    {
+      "path": "access-request.md",
+      "sha256": "e4b366234e93de37b4c38a8780891d65786e1a0fa09c7a9fd5348ebb8af0b13f"
+    },
+    {
+      "path": "actual.md",
+      "sha256": "5c2ab2591f5583de9f2b6bd1b50cc25bd8939af3f73f44a700713cc43f5ba2a4"
+    },
+    {
+      "path": "adextensions/add.md",
+      "sha256": "d22313732f895e7ac40cb2bea7e1bd1ad0d1ab2fa82588b76796e7fed2ac13f8"
+    },
+    {
+      "path": "adextensions/adextensions.md",
+      "sha256": "402ce815ebef012ea9ca6202003ac840ff1014881449a1b8863fc400c3230f21"
+    },
+    {
+      "path": "adextensions/delete.md",
+      "sha256": "6b803f1531038d4b7e15361e6f0ae40f38d3ab245da5834a7ed91917fe5a36e9"
+    },
+    {
+      "path": "adextensions/get.md",
+      "sha256": "2df29be3b5539e0579cea732d128e0eb82ed03a092a0d0ca73a7dd85d8741558"
+    },
+    {
+      "path": "adgroups/add.md",
+      "sha256": "9b9286cdde99e8d5ac15eff7d7650d289a9391d3cea43306a7ec2c288195355e"
+    },
+    {
+      "path": "adgroups/adgroups.md",
+      "sha256": "1649b70467ec6d955a55d9c281a36a118a86065d5996ef51bafa3a794def5e22"
+    },
+    {
+      "path": "adgroups/delete.md",
+      "sha256": "cf1b929aa867eddba7ae4b57446be714e05117390f5f3d19040e830abad28396"
+    },
+    {
+      "path": "adgroups/get.md",
+      "sha256": "92e804b24016b570379bb5f085d4b9426e61be2ca1aa8ee2efe86650776f1095"
+    },
+    {
+      "path": "adgroups/update.md",
+      "sha256": "95d5847a538f6e7212f3f7846f916efb749255659ed4af2aebd67fc8ab0228b0"
+    },
+    {
+      "path": "adimages/add.md",
+      "sha256": "3285ff21c8da0656bd3adcdf42b08cb8fdef2796432e66393464d299ea19dc33"
+    },
+    {
+      "path": "adimages/adimages.md",
+      "sha256": "5260869292a90ac3c68c754ebd1ed555a0bb7c2827d0543ba533a863e6fd8b18"
+    },
+    {
+      "path": "adimages/delete.md",
+      "sha256": "dc0c53bfc6a19bf5d5069eaa8d38e0f0a053183aeddac0133fbc2dd104300ab7"
+    },
+    {
+      "path": "adimages/get.md",
+      "sha256": "2922053a469ff15375a26f4b1b45e14a29949048e5cf6b3ae6a7b5a395db1fb8"
+    },
+    {
+      "path": "ads/ads.md",
+      "sha256": "bc9d4a023b416531f6729a4d8506273ca52d477cea0f9588e767ee14c6e68774"
+    },
+    {
+      "path": "ads/delete.md",
+      "sha256": "e5888e2b4b38a9a23f480be2baa3050a487ee0ce62fef9b333a33c2c1edc2384"
+    },
+    {
+      "path": "ads/get.md",
+      "sha256": "662d6e2e703d9558b7fde6130011695794740da5e22d3f66963f0d1a5160e1a3"
+    },
+    {
+      "path": "ads/moderate.md",
+      "sha256": "b3ecd0d07eb13aceb8e85c5d7e68f7fa3e4be204a7e0e78733994d1315eb8470"
+    },
+    {
+      "path": "ads/resume.md",
+      "sha256": "98ab6c64989fa99623529d2f6c479ea89172c118b49263f0d0149be034406ae3"
+    },
+    {
+      "path": "ads/suspend.md",
+      "sha256": "700cee233121c9cb30cb057dbf3ceb40c11626ea5687441896433de14360a788"
+    },
+    {
+      "path": "ads/unarchive.md",
+      "sha256": "e1c15c20ad5ec9d582db580c24e38af3a8dab15d0d4b9687e4321975b5fe61bd"
+    },
+    {
+      "path": "ads/update.md",
+      "sha256": "65e88b9afa018e49189b1461f9a7c81511c0ac20aab7c2c30342f5911a11e4d0"
+    },
+    {
+      "path": "advideos/add.md",
+      "sha256": "0b21f3457517682dfbd418e493cf78a2cbc7687697da9766ac07f16443fb7dcc"
+    },
+    {
+      "path": "advideos/advideos.md",
+      "sha256": "d65df48e7adbcc592a8f392024e3d28ff7e7e5da3140d06ac313e810e37d5736"
+    },
+    {
+      "path": "advideos/get.md",
+      "sha256": "6bd291e2cde784dd56d5b44e85838c04daeaa6f1c1ef662b6604076ab343682c"
+    },
+    {
+      "path": "agencyclients/add.md",
+      "sha256": "2f0afa67dfddc616b6a234a329f8bac3579a4a7494eb6c07cc7b50f26fd77343"
+    },
+    {
+      "path": "agencyclients/agencyclients.md",
+      "sha256": "2a4e0c31d5380a31500b423f4755bbab2e07810c5106cb7cde6ea5eae6aea9b5"
+    },
+    {
+      "path": "agencyclients/get.md",
+      "sha256": "af73931ebc09f3fdd08bcf1ed6f262904e629bd1d243f9d9615fcf450b6af20d"
+    },
+    {
+      "path": "agencyclients/update.md",
+      "sha256": "3372fa63e36bd1a4e7c40860d181e076c8fb93dfe082ee05f64fe028130ffa6a"
+    },
+    {
+      "path": "annex/campaign-options.md",
+      "sha256": "012632253a0ee3f955abfb1362c267cdb650d690c73dc95bc9b9045a9122f1b2"
+    },
+    {
+      "path": "annex/strategies.md",
+      "sha256": "6b448e7bc2ba8c219adec58e593343c0496ea4e9ef160daf9a197440d03df6ea"
+    },
+    {
+      "path": "audiencetargets/add.md",
+      "sha256": "e7ac44c29ed218db6802c73565b9b323ed2bf8b127ea22f0327afa049bdac235"
+    },
+    {
+      "path": "audiencetargets/audiencetargets.md",
+      "sha256": "f87fdcd5c5e8b9a3ca434127b448bfbdff3860d733f7086c432d2990d80debb8"
+    },
+    {
+      "path": "audiencetargets/delete.md",
+      "sha256": "7a0ef71631e60b8c8ca1daecfe60b7df9c801c3ecb79d0f8129722ec14c58849"
+    },
+    {
+      "path": "audiencetargets/get.md",
+      "sha256": "9ec0b9475236d351c11e95f662496d5f4c8ee2160e68ffb5ea02ece1c24e89f8"
+    },
+    {
+      "path": "audiencetargets/resume.md",
+      "sha256": "c591d858ee51eb11bee2181d47070ea408652ce3ac0eaeffd4c0e8773aff91c6"
+    },
+    {
+      "path": "audiencetargets/setBids.md",
+      "sha256": "0e07d5fd7c288fb3a3140ae4e098665551720d440950ef1b29f7948096e9eda4"
+    },
+    {
+      "path": "audiencetargets/suspend.md",
+      "sha256": "1913eb95e156d362ef568a0d424490d8ae118b3f05f3fef17028fb9ff2f01621"
+    },
+    {
+      "path": "best-practice/_28https_3A/yandex_com/dev/direct/doc/reports/reports_html_29.md",
+      "sha256": "004d24fa1570cc7618b6552dad6da7d2a651eb82f1141cf91d6eb8134b748ebf"
+    },
+    {
+      "path": "best-practice/agency.md",
+      "sha256": "afe85cf10019452db05b97028c7d7ec5d72eda7ab399e6a66d90f6a154465232"
+    },
+    {
+      "path": "best-practice/auto-targeting.md",
+      "sha256": "f7a7fddca4b84c447a76825c49e57e84503d2a173737bb8a14794c4cfbb8f997"
+    },
+    {
+      "path": "best-practice/check-changes.md",
+      "sha256": "997ba9fd920eb85e3a97821d8f16befee98ddafee589c3f819ebd6498893f44c"
+    },
+    {
+      "path": "best-practice/cpm-banner.md",
+      "sha256": "02acf1940ae8bea43b30ace771bd525a0014179e76ad9f5204cf843c9ad09a61"
+    },
+    {
+      "path": "best-practice/dynamic-ads.md",
+      "sha256": "b16eea6f966cd60d69084931b8623c4e2460d4129465c675ea63a08aff318aae"
+    },
+    {
+      "path": "best-practice/get.md",
+      "sha256": "81657d788d7ba8ae7810e164e55edf3e78dad43850fca870cabc6ca774dc0241"
+    },
+    {
+      "path": "best-practice/launch-campaign.md",
+      "sha256": "a3155186e6c55d97aa7514fd748ca67c68aae8dfcda5bc31e5babe5c4f3d546d"
+    },
+    {
+      "path": "best-practice/modify.md",
+      "sha256": "91d41de8ebc92e1312be264722952854fea6a6a7ecbd89be89cd36167d4fb079"
+    },
+    {
+      "path": "best-practice/nillable.md",
+      "sha256": "7471d388c4e3251ee9f58d9bb3640906b2d7c783b23c6f98263482009f5e18d9"
+    },
+    {
+      "path": "best-practice/part-update.md",
+      "sha256": "b9a96656c76fc4075199e3488a35018c19c482c4e34b5ae36e991750040ad7ad"
+    },
+    {
+      "path": "best-practice/principles.md",
+      "sha256": "3a1cf874cda9612b1e8d17f919be9af3ccbdd1d83d687043bd57b15a4cb57763"
+    },
+    {
+      "path": "best-practice/quick-start.md",
+      "sha256": "8354444262c64de7a2c257c77992c06a4be14bceb47206a04e18ca80874427ba"
+    },
+    {
+      "path": "best-practice/smart-ads.md",
+      "sha256": "7e75a19fc470d033cd1e5a710adca0988183a58eed52e7db55c8f537c1234c6a"
+    },
+    {
+      "path": "best-practice/statistics.md",
+      "sha256": "689468739337067f55bcac1458304fb21e4532f007d6eb2c07fcb1488f7bc94d"
+    },
+    {
+      "path": "bidmodifiers/add.md",
+      "sha256": "790836b6f25dd039c3c4f341844ce1d96693641ac88f8d35427c09611810afed"
+    },
+    {
+      "path": "bidmodifiers/bidmodifiers.md",
+      "sha256": "a4bc9d2dc86b745e2a9cacc9edb996a917601eec772e87236af6b2c559765d50"
+    },
+    {
+      "path": "bidmodifiers/delete.md",
+      "sha256": "7184518bf0d560d4210545b520c115fe5677928a2fddc3711d6582785d828022"
+    },
+    {
+      "path": "bidmodifiers/get.md",
+      "sha256": "e2b69411a8c17f9c91c1bea3f901d3eb842ec447790f0242d6390b628b631e5a"
+    },
+    {
+      "path": "bidmodifiers/set.md",
+      "sha256": "46b831857e48e2da546037d708440ff1fd9b70978c3c725f8a263b62b1e91f82"
+    },
+    {
+      "path": "bidmodifiers/toggle.md",
+      "sha256": "f297d85cc28bb7be222d0afc5b856db8aa3107c6cafa0517aa76039e21322533"
+    },
+    {
+      "path": "bids/bids.md",
+      "sha256": "ff8c07146ff707cabf8b634c747d0f6fbb2b0f9232693041f730b30cd461eff1"
+    },
+    {
+      "path": "bids/get.md",
+      "sha256": "2ae55917d018de030ec03af7c6435ca7a77d693f4df45215338af478c876fa26"
+    },
+    {
+      "path": "bids/set.md",
+      "sha256": "760673eb701e762c0c705b3fd1c580ad9daeab0fd052ac75a7ef5d4014b20fcb"
+    },
+    {
+      "path": "bids/setAuto.md",
+      "sha256": "c25782ffdeb31d604bc6c2d9fa3949135d30b7618d4fa8d13dadb4b29ad2a0df"
+    },
+    {
+      "path": "businesses/businesses.md",
+      "sha256": "5d3dc5bddf802103dd40a9977abfe6ea935ef38eba90e049a93a75b99f022c4c"
+    },
+    {
+      "path": "businesses/get.md",
+      "sha256": "2b9fd379ed20b015b55503d529662d45a86786b66e592045a381dfaa41778136"
+    },
+    {
+      "path": "campaigns/add-cpm-banner-campaign.md",
+      "sha256": "9339abfca02a21e3957e6128f3fbd8ceae6989a3af8ed0ed0e6e6d57525f40b3"
+    },
+    {
+      "path": "campaigns/add-dynamic-text-campaign.md",
+      "sha256": "941b9352476088a2c3900934632aeef4a9c546d17c7fcbe44835683af48bc533"
+    },
+    {
+      "path": "campaigns/add-mobile-app-campaign.md",
+      "sha256": "75b446c7a5f4ac67c7b8ea8cd0d94410ed91fd26e2723cd8e5fa41caacc9603d"
+    },
+    {
+      "path": "campaigns/add-smart-campaign.md",
+      "sha256": "5061c1068078d26a8ab87dec84bf1ff06e9c673041b884f697a87550a901455b"
+    },
+    {
+      "path": "campaigns/add-text-campaign.md",
+      "sha256": "e348cd33427e21600733abb21dd9f20bb38f829f7a99e96122056b9945ca7ef8"
+    },
+    {
+      "path": "campaigns/add-unified-campaign.md",
+      "sha256": "2dde5134a1b006f1cefca58b7094db5ad6062ac7c96c9be1ba8b2662265bab42"
+    },
+    {
+      "path": "campaigns/add.md",
+      "sha256": "5c0a76ce754643ba3b9ea641af86efd617457705ac2462a55284922707f15040"
+    },
+    {
+      "path": "campaigns/archive.md",
+      "sha256": "6ede7067453eba01bdd564377c9a0597803ab68836da165c6809a3eb9e5af319"
+    },
+    {
+      "path": "campaigns/campaigns.md",
+      "sha256": "75c57b192b35c1cb7d4ad9a3f6aa96aa854de969c2f64c31da137c8873311c71"
+    },
+    {
+      "path": "campaigns/delete.md",
+      "sha256": "1aec3a1783131ee3a3f7bdb7e48052727698f649b9d0e89958d2b4e9f4d285c2"
+    },
+    {
+      "path": "campaigns/get-cpm-banner-campaign.md",
+      "sha256": "1bf9e4e3d570d1714acd4c55aba2ad86b12b411bdc1ad4a696260ab2e4dc42e0"
+    },
+    {
+      "path": "campaigns/get-dynamic-text-campaign.md",
+      "sha256": "5d86964c7cfc71bdcb272870cdc32b93659de347ac6117bbf618f9b6561aa736"
+    },
+    {
+      "path": "campaigns/get-mobile-app-campaign.md",
+      "sha256": "ecca8fac6a6f5ac46bdf2525a6d3f9e140533a53af0bcfecb9cc522e60c56dc6"
+    },
+    {
+      "path": "campaigns/get-smart-campaign.md",
+      "sha256": "bb94c57a1a5514a8d90cccb54c797eff9194717a5dfbbbde10519052da667ab8"
+    },
+    {
+      "path": "campaigns/get-text-campaign.md",
+      "sha256": "0e0b2493cbd2fc4763022c3a80231b6ee2599796e0aacccae3135440830ba09e"
+    },
+    {
+      "path": "campaigns/get-unified-campaign.md",
+      "sha256": "75af1a775adb90637da971eadc982250956a8e9c98fec161a762079806f82725"
+    },
+    {
+      "path": "campaigns/get.md",
+      "sha256": "734b45cb52e6419d578f863d4388ac7bf7d5bd3b0ef48a1da528baa524513706"
+    },
+    {
+      "path": "campaigns/resume.md",
+      "sha256": "139dd0c39cfb84cb38b50eb2fba146cec2871e7b6c362e17b16b4891b85d8e8b"
+    },
+    {
+      "path": "campaigns/suspend.md",
+      "sha256": "380f1e6fd6fe2f17a45d4f23e7b614d7d6a87e8e3cfd174b6e170444d788ecfa"
+    },
+    {
+      "path": "campaigns/unarchive.md",
+      "sha256": "ba4d773c37ba2a906d2ed928787c0ba40c70ddd3c20d06cda94d5dbc42bcbcc8"
+    },
+    {
+      "path": "campaigns/update.md",
+      "sha256": "2648d0d4975c0b4df2319be1e14696fa2e1622d18f4f13796a5926491e9ea055"
+    },
+    {
+      "path": "clients/clients.md",
+      "sha256": "5e7fb0439b86eda4842223ecf9c825e9906ba701b90831a1a19c402400007cfa"
+    },
+    {
+      "path": "clients/get.md",
+      "sha256": "9576ec262829aec1c6eda9ab3411df060c7b499fe8b41bc9660b449f2a579069"
+    },
+    {
+      "path": "clients/update.md",
+      "sha256": "a1aec3e085d615499c808a6cd92a0075f540469df6a19493c36b9e9021fc0f3f"
+    },
+    {
+      "path": "codes.md",
+      "sha256": "c75e99ff46fad8e8a91ce81f3504021b53b08e089f868321666629cd36c2dbdb"
+    },
+    {
+      "path": "compatibility.md",
+      "sha256": "f3ce7cb5ab8ec76b904ccd41964da271feca8e4819468fd8237e941950d0109d"
+    },
+    {
+      "path": "concepts/_https_3A/yandex_com/dev/direct/doc/support/troubleshooting/issue.md",
+      "sha256": "93a6167a2913647e6f28aff70adc24e0da8b9804b997ad095695a510e0babd53"
+    },
+    {
+      "path": "concepts/access.md",
+      "sha256": "6393bdf14ad94a2abfe633ec9c69ceaeb49254226da11887a193a3217ce791f6"
+    },
+    {
+      "path": "concepts/auth-token.md",
+      "sha256": "732165a6fbc268800d2010159a7be4f07b7a0723647e0c415af3dd855e424d8f"
+    },
+    {
+      "path": "concepts/banners.md",
+      "sha256": "7c55cc7449e368cc872bd07755eb7687fc7e559bde8fc288908c04e59d9eb95f"
+    },
+    {
+      "path": "concepts/campaigns.md",
+      "sha256": "cf952a1a0cf0c4ac73b7f3d7b1b7eea5844a9e970ff0232d95bdf6b5c4197488"
+    },
+    {
+      "path": "concepts/clients.md",
+      "sha256": "99ef51046cc91b466a640253c390d61176876540535224d00af403bc2506474b"
+    },
+    {
+      "path": "concepts/compare.md",
+      "sha256": "d8bd0ec7012fd0762643d41df09d1754020cc74898067fcd36ac021eee77017b"
+    },
+    {
+      "path": "concepts/contact-info.md",
+      "sha256": "8eb454d70c602cf1b3bad3bd1b43985cd246f823e6e888bd6a35db75c6a41c00"
+    },
+    {
+      "path": "concepts/errors-list.md",
+      "sha256": "01c64fab2efcc6f2ed778124da8aa07caf880af79f33396895827951dee2f396"
+    },
+    {
+      "path": "concepts/errors.md",
+      "sha256": "f6095976a1e9e1d1a28305dd8b46c307ecb86667151f6e8601af025b8e256f35"
+    },
+    {
+      "path": "concepts/format.md",
+      "sha256": "35cd080680fac19cd1bf234585053dddc202d81741d3c1ef3ef62908c988a66e"
+    },
+    {
+      "path": "concepts/glossary.md",
+      "sha256": "0d5d0bdd8b4512ce139d72f05dcda5283207ccbb81ef2ae8deaedfd031a1e00c"
+    },
+    {
+      "path": "concepts/headers.md",
+      "sha256": "7e4b5e1f597e0ed44874cfe6ed99a379d94480f1993343b0b5bfa02228e8ab2b"
+    },
+    {
+      "path": "concepts/json.md",
+      "sha256": "bcf8778b28572e2f3fb6649e234cf7e6ae1ae83e84252a931eb44371748deb67"
+    },
+    {
+      "path": "concepts/methods.md",
+      "sha256": "c9dfdd700856b8abc9b2e70e44136a688b62d13c12303139f9c23d3453ca246f"
+    },
+    {
+      "path": "concepts/overview.md",
+      "sha256": "e8392cea3681ee22bb1ad11563f0f0f19bd9d12497f141bc2685a1c8fcda95b7"
+    },
+    {
+      "path": "concepts/phrases.md",
+      "sha256": "abaaf765609f1a1799a1f6bd04e4ec27947661153fb4027b0b645910fec16afe"
+    },
+    {
+      "path": "concepts/register.md",
+      "sha256": "b80dffe4829102a8cd2549dd95124de7c13c4d2d54846166e6af06f2152d873d"
+    },
+    {
+      "path": "concepts/retargetings.md",
+      "sha256": "f04b4a2193512d85f490600e305f511ff909a0da486fe1b063686a7b3535865c"
+    },
+    {
+      "path": "concepts/sandbox-init.md",
+      "sha256": "97d6d7ce284f275334d9d646beadc4b33a44c15ee5e210955f7a2ebcc26b73e8"
+    },
+    {
+      "path": "concepts/sandbox.md",
+      "sha256": "382cdf02cd982188fa7b6c2dda44395232cb6996cce4a843881611af6b2c230a"
+    },
+    {
+      "path": "concepts/soap.md",
+      "sha256": "ab7b2330918290de33cd31f98ee0ed007cedfd88f2accf26688c23803b3eb92c"
+    },
+    {
+      "path": "concepts/stat-example.md",
+      "sha256": "3f892e39751ae8d9af5fc3e926b64eea022e71daae66b6b26e05851e02c32c71"
+    },
+    {
+      "path": "concepts/stat.md",
+      "sha256": "8cb02d99a4199c7b70779446128b09514276a11ddb3a5b28dde01df34958d142"
+    },
+    {
+      "path": "concepts/units.md",
+      "sha256": "c8febf0f614e72a7649abdd64768abad9fb0b785493b7657545bb9fc0bc20d28"
+    },
+    {
+      "path": "concepts/use-cases.md",
+      "sha256": "1f72f3a6efd15d8a0d683a26c8283361f365e3e5aa70db36c7496d0ac48c4e94"
+    },
+    {
+      "path": "creatives/add.md",
+      "sha256": "dc85e5a83336d4e250d76d845626f329c23d5aeed23aeacad5c53ac27ae4ce22"
+    },
+    {
+      "path": "creatives/creatives.md",
+      "sha256": "63e6551bb2a3bde38cf6af43cac7a45241a4562716b2ecf96a9350169918184e"
+    },
+    {
+      "path": "creatives/get.md",
+      "sha256": "eeaad4582e7a1a4b2212b402a2e59d66b246ec53ea972e8a38762af66d7f781c"
+    },
+    {
+      "path": "curl-ads-keywords-modify.md",
+      "sha256": "6067fb2e485a9f5f2e02a5d4a493f5cece81f719c14a044d476252d58973d355"
+    },
+    {
+      "path": "curl-ads-launch.md",
+      "sha256": "f0b303ce10e4f72f244a52b2a1cc9c981ab1bb96d10d297213b08e1d8049f72c"
+    },
+    {
+      "path": "curl-bids.md",
+      "sha256": "b984c415a50a5fb76207c5b2e6ff5f0c0687398c782634dee8e9d3243b7fc7d6"
+    },
+    {
+      "path": "curl-campaigns-strategy.md",
+      "sha256": "cfff49ed0e7cce4155027c5353e0b1ddcbbabe119cebe7034015952ae2a15291"
+    },
+    {
+      "path": "curl-campaigns-timetargeting.md",
+      "sha256": "d6138c29f8ff710c2f0d53ecb8e019e429296a895c6370d05e73bacd7c568061"
+    },
+    {
+      "path": "curl.md",
+      "sha256": "783b7955fabc3a30c7f0e90f653199b1096663f14d639c8a59817e4b8766e45a"
+    },
+    {
+      "path": "dictionaries/dictionaries.md",
+      "sha256": "0304e3ca69f0083972931cab2f93c4f20fa5edff611ba297f30ac29ad38ff846"
+    },
+    {
+      "path": "dictionaries/get.md",
+      "sha256": "9e63b9282fb98c71b4f8f21bcbf050eb7b9cdfe1d1b8e273a2a4701198630489"
+    },
+    {
+      "path": "example-metrika.md",
+      "sha256": "7d5c742ab202aa2c6c15316a70c00755b99f595f9abe13e18c4a03dbe8d96fe9"
+    },
+    {
+      "path": "example.md",
+      "sha256": "5e23477c5800f5098ab5c9d18bc121940beb77de83f6165db5ca58c1d56508e4"
+    },
+    {
+      "path": "feeds/delete.md",
+      "sha256": "08e45ab8afc18d5e642c06ad402f3c8710cc7610ef329aec8dbb3bc825ebeb4a"
+    },
+    {
+      "path": "feeds/get.md",
+      "sha256": "9d3d96e7d1163e8018ca8c0c0bb833eb2a7adbb9f1021653c425ee68a99c5ba3"
+    },
+    {
+      "path": "feeds/update.md",
+      "sha256": "855f06b4725020ad006a50f7ef689a393559e691d798d1430b19732fd1ddd319"
+    },
+    {
+      "path": "fields-list.md",
+      "sha256": "bd9add76789c2813dbac0c0fe97254a288357b2e85eeb48da8a9d11ce3bd6424"
+    },
+    {
+      "path": "fields.md",
+      "sha256": "21d3a16cb88d7bd84737e509a0f49c8a56f49566ef78b3ef3099d2c85ba99617"
+    },
+    {
+      "path": "filters.md",
+      "sha256": "53a2c896e446a0ce30b80370682a8a7113efe572f7e2a10ace23ea2912bf43f6"
+    },
+    {
+      "path": "format.md",
+      "sha256": "daedc324fcca516676ddd50abb0df7b94c0e7b9eeba39575b17e1b102b21c071"
+    },
+    {
+      "path": "get.md",
+      "sha256": "28fa1aea3b54099cafed78563c7038b52c66831f6964fb1719d0595c81dc5b23"
+    },
+    {
+      "path": "headers.md",
+      "sha256": "cea988d7d2890e7fa7f1391c36ad84cb8d474c273b294c998b6d38f705389552"
+    },
+    {
+      "path": "home.md",
+      "sha256": "9f51588a01985bcc7642635e393791a799acbc7402b7d73cead2a4db0fdebd93"
+    },
+    {
+      "path": "how-to.md",
+      "sha256": "4842e3892f7a8e4eb571081a8300e6cde481ca3581e4dc1c0e914547b0dcc137"
+    },
+    {
+      "path": "intro.md",
+      "sha256": "685b4e772e0ac40851cb2d440895b05e9713a8f68895ba901055abacb40701c5"
+    },
+    {
+      "path": "keywordbids/get.md",
+      "sha256": "45679b8683f6df9faf007419bab34e5b70907b24160ce0c76826727e736a85c7"
+    },
+    {
+      "path": "keywordbids/keywordbids.md",
+      "sha256": "fc25689092a6533bda1d696284d74adafd8a7ae29866446ed96951b0cc354e06"
+    },
+    {
+      "path": "keywordbids/set.md",
+      "sha256": "ace123fe701230141432141f907b7cd3eade1b031ddcedfa91c60014892b653c"
+    },
+    {
+      "path": "keywordbids/setAuto.md",
+      "sha256": "776769d393448512971c74415011957f3782667c4269d6415aa41e800cfaaf77"
+    },
+    {
+      "path": "keywords/add.md",
+      "sha256": "dcd762e60fda4f0ea38649c0ebd03c2dd4858d582fab6338e845a6b989896e2d"
+    },
+    {
+      "path": "keywords/delete.md",
+      "sha256": "686a3b098a9712eea8f095030079d4f87477c14b50941d56334816bec9e00b6c"
+    },
+    {
+      "path": "keywords/get.md",
+      "sha256": "4bf9ccd92003892a33e0f36d28e4c88000d5c255d0025b756f7aa63c536cc2e2"
+    },
+    {
+      "path": "keywords/keywords.md",
+      "sha256": "21126754cdae6737990ad3aef31f2a1ef0a1cd1f65e77cc35de9776b78d0eba4"
+    },
+    {
+      "path": "keywords/resume.md",
+      "sha256": "9637163aa8d7ecd1d63c6253c88b889058682ef206d9ec2931c1138564edb82d"
+    },
+    {
+      "path": "keywords/suspend.md",
+      "sha256": "757cb83d10aa9fbb71c628832585a1f9f533d7077d6eb6f0cd6b35e4dbd3f2e1"
+    },
+    {
+      "path": "keywords/update.md",
+      "sha256": "a7c433fa53a3fef6022c2e061d28b8ea9a74d9ef68580d493bf26e5492d55686"
+    },
+    {
+      "path": "keywordsresearch/deduplicate.md",
+      "sha256": "5022f5e38f0e91f123b5e2148010e9f7a54b803ff9dc36bdbbd647cdec6c17b1"
+    },
+    {
+      "path": "keywordsresearch/hasSearchVolume.md",
+      "sha256": "ce8828b8f5fcfa6cb48faa39aec65901683b670a1a69baf69ad6c5c0282e3f92"
+    },
+    {
+      "path": "keywordsresearch/keywordsresearch.md",
+      "sha256": "b9eed1b4e8915af16c0fd2b334039752013140eb4875928298b8fb21e3f345b8"
+    },
+    {
+      "path": "leads/get.md",
+      "sha256": "c0e573fd5fd6e677f643a95526e02a115f041834dd8ac993086f914f98d3a78d"
+    },
+    {
+      "path": "leads/leads.md",
+      "sha256": "690e53cab910590edc4b20986e1883fe5ef6d9c14f3cd7d2d0179f3b53b14427"
+    },
+    {
+      "path": "mode.md",
+      "sha256": "2f8b914b367d529da660ef415e370344958d2eb650d37f78e6e22ee8532dc896"
+    },
+    {
+      "path": "modify.md",
+      "sha256": "031e15fdc13e83fcb23c744dfb1bb52338ce1902fcca5fc0ea0d07b66b04be3d"
+    },
+    {
+      "path": "money.md",
+      "sha256": "fa4485502095602b149c5db01ddf4467a9e0213f482aa00dae40c97d3e45f88f"
+    },
+    {
+      "path": "negativekeywordsharedsets/add.md",
+      "sha256": "550f5bb532b1ee55ed3a4437c06ec67e6536797bc25dabb9eb2cd36807121106"
+    },
+    {
+      "path": "negativekeywordsharedsets/delete.md",
+      "sha256": "089a95758f9c7ba147b549dfa537f51e6476c60b3380f1a416ad1d1cac9de863"
+    },
+    {
+      "path": "negativekeywordsharedsets/get.md",
+      "sha256": "e7f950a33f91a2f6ff165b658b00ee5cf8fe39fb7923c2162daf4a8459e2b6e6"
+    },
+    {
+      "path": "negativekeywordsharedsets/negativekeywordsharedsets.md",
+      "sha256": "7a6b88b0386f39aaff6ee240b304d4ed759cbf9c12818f88459a3e606fbc05bd"
+    },
+    {
+      "path": "negativekeywordsharedsets/update.md",
+      "sha256": "7ea83435f9c8a7bbcdeda6d68cb29ea078805f4f0ceac6ab96163d9475270e1e"
+    },
+    {
+      "path": "objects/ad.md",
+      "sha256": "559fea312bce0818f9d42ff1fdfe41524968f135e562a346a38ae58673bce440"
+    },
+    {
+      "path": "objects/adextension.md",
+      "sha256": "5fb426d8710679e76320f474a381662c64ab9afb58f28182404396ff23efed0b"
+    },
+    {
+      "path": "objects/adgroup.md",
+      "sha256": "6cefcfc4ba65a3735f0bd00fe336f014f61c6bc56ffcae20b084eb81e07eaddf"
+    },
+    {
+      "path": "objects/adimage.md",
+      "sha256": "8cf6bb5e5551118c02fad7114864011666572185b2a24ff8443fe5f55b0b824c"
+    },
+    {
+      "path": "objects/advideos.md",
+      "sha256": "778419dbb7aa0b32872d39d5ed8797bb34c1050885cf88490500826c46ccbc76"
+    },
+    {
+      "path": "objects/audience-target.md",
+      "sha256": "7c2390aeb76db583eed1a25f95601c8fab4b1478fc7d0925e3f965952bbcbcc2"
+    },
+    {
+      "path": "objects/bid-priority.md",
+      "sha256": "eac16d92fa9954988b8e8ac40652cd6eb9497e6104051eaf2ee3da2a16c257b8"
+    },
+    {
+      "path": "objects/bidmodifier.md",
+      "sha256": "b5c58df636b38f71f923fe91909a93c525244e94cffb3a8c1d2b719f1643ad91"
+    },
+    {
+      "path": "objects/campaign-params.md",
+      "sha256": "c332d77b0a226677be60cc97ddace4bf49b74047649e01607675925f2b125bb9"
+    },
+    {
+      "path": "objects/campaign-strategies.md",
+      "sha256": "74ee400530a45f42c501cc1083652abc6808fb609df54981cc7347a474971daa"
+    },
+    {
+      "path": "objects/campaign.md",
+      "sha256": "11112bf1d0c6a4c885a887543449595f5c426de177b9f673f71f191d8775ca0e"
+    },
+    {
+      "path": "objects/client.md",
+      "sha256": "9bb4081ed480246dadbec9c8fd3a2d7297be948ca6760365f313292a7de56cf2"
+    },
+    {
+      "path": "objects/creative.md",
+      "sha256": "ff8109f5225d3d354b0c55040e14ad295cbcedfdd91b6c9a47dbfe5bcef95e9f"
+    },
+    {
+      "path": "objects/dynamicfeedadtarget.md",
+      "sha256": "d765d4bb2f0d1a1cd2a04c1bec7c118a306efb448e9e21b99242397dce66d05e"
+    },
+    {
+      "path": "objects/dynamictextadtarget.md",
+      "sha256": "8066b10594268df1eac580c96cd50d9e8d735300a21fce72fa7cae3ecf18a5cc"
+    },
+    {
+      "path": "objects/feed.md",
+      "sha256": "c1a93017dee7a6b16ba8197ab4396f947dc480d827acac64d8c825595be049ae"
+    },
+    {
+      "path": "objects/keyword.md",
+      "sha256": "9fe2581e73f7513136557ee7849fe89df341603ced6dcb5e264ee308c6f6d8ed"
+    },
+    {
+      "path": "objects/negative-keywords.md",
+      "sha256": "c817980f3eca85d46ae105d79e5dfdd199f5aae2e839ad8e58c0fbbcdcfcffe5"
+    },
+    {
+      "path": "objects/objects.md",
+      "sha256": "f107f462fb26b96c2a530643a2607dfa8ee3d160261ef7b66336fa5bdd853188"
+    },
+    {
+      "path": "objects/representatives-recommendations.md",
+      "sha256": "decff70907bef0253f2f6da095343ccf9d6a26eaa24e6060a45db857bcea49d6"
+    },
+    {
+      "path": "objects/retargeting-list.md",
+      "sha256": "191195b4d9299b26821019d92bb6a392636e38325be62492307fef41574e9481"
+    },
+    {
+      "path": "objects/roles.md",
+      "sha256": "6fcdd89470919cb8daad01faccde91a2b092fab74095d85b19b1a41f71f4ef3c"
+    },
+    {
+      "path": "objects/shared-account.md",
+      "sha256": "de65ca4fc98edb70e3cadc3929d20e194e2264f3c5e85f857430b0447320db12"
+    },
+    {
+      "path": "objects/sitelink.md",
+      "sha256": "e6105ffa992206bb4890c82c94f5e2eb654589d4e9562c1c6efc8aa278ffde14"
+    },
+    {
+      "path": "objects/smartadtarget.md",
+      "sha256": "0178b28fbbd1812e010a54ce3018c7aef1063e34a39606bae660acd0e9910cec"
+    },
+    {
+      "path": "objects/strategy.md",
+      "sha256": "8cb2d4c48200d01a344d955f1b5793dd9bcb1e34bed6acdd76491029442a12c7"
+    },
+    {
+      "path": "objects/turbo-page.md",
+      "sha256": "2b403eeec5218c60da13f485caa98989a12ac8f0a602fa1a054461e02fe1cc84"
+    },
+    {
+      "path": "objects/vcard.md",
+      "sha256": "07c157257e6ec11a2a9dd54c507719433cffbcc222f44c7fc23bf83004872dda"
+    },
+    {
+      "path": "optimize.md",
+      "sha256": "97e762ba161e1cefda76cf879822c3bb259261ddcfda2b07784b0457927a81a7"
+    },
+    {
+      "path": "period.md",
+      "sha256": "f39b6f87bcf0eef88a1d1fb16b531dfc3bc4fa38e566e240322d35f91048fe88"
+    },
+    {
+      "path": "php5-curl-ads.md",
+      "sha256": "cbfd5800190207d296895c11a84c36c6acc4efd7377a6227ac936fe953abf44e"
+    },
+    {
+      "path": "php5-curl-campaigns.md",
+      "sha256": "727c42b7bfd287e5e209fc15aff9197163d2dbe084f86e846fe4d4f6807fdfd2"
+    },
+    {
+      "path": "php5-curl-stat1.md",
+      "sha256": "ced56906b753e39468e345117044667593e31c99229144ad64c283c22c9ca923"
+    },
+    {
+      "path": "php5-curl-stat2.md",
+      "sha256": "05e92bbfd96b9f92e4b8845b3f59fe3b2bdc463631b3e1cf19bcc2844b10dc5e"
+    },
+    {
+      "path": "php5-file_get_contents-ads.md",
+      "sha256": "f9952dbcf0061734b3063def04482a7b540b93698bb378e21cdf6f67e1fc7ffd"
+    },
+    {
+      "path": "php5-file_get_contents-campaings.md",
+      "sha256": "ffa8dd9b40db1d8470b459e5331a4f2102f224921746de52e4635aee4e6e82fa"
+    },
+    {
+      "path": "php5-file_get_contents-points.md",
+      "sha256": "d86adda38395c68cb7ce40b0e17209624c8b2ac8b4e17453ea010dec0c84264e"
+    },
+    {
+      "path": "php5-file_get_contents-token.md",
+      "sha256": "ec68d1f8144633c389465b557092a9821c0b1a5cfe377e2392f22180775b29fc"
+    },
+    {
+      "path": "php5-json-curl.md",
+      "sha256": "08dd6827f5e37084e0f55ff954e3751b4fdf8b42429195c7e4a68eb56ecbef6d"
+    },
+    {
+      "path": "php5-json-file_get_contents.md",
+      "sha256": "73b4d560518457621d88cee4904988e0932b3af2eda8d52ec77c3f961b450e81"
+    },
+    {
+      "path": "php5-soap-ads.md",
+      "sha256": "276ddf9c84bcad14d0e72a7e8e970bc1197a4cddba174fb9f099b53057fcb69a"
+    },
+    {
+      "path": "php5-soap-campaigns.md",
+      "sha256": "f6600bf87356bd3d719d08fea294418c44dbcddc8f6bef914fcc23c8be1e06ac"
+    },
+    {
+      "path": "php5-soap.md",
+      "sha256": "2540c00e24a596aa655d56e633aa1e3e26b1c59035098ce40bd705f836cb7164"
+    },
+    {
+      "path": "php5.md",
+      "sha256": "7d51651e5130e9c5966ef74b7f11a014128553879026398a103eca2262721286"
+    },
+    {
+      "path": "python3-json.md",
+      "sha256": "9eadcbeb18c3c61020588a74661ccb52e357c70744d9c4060daa10df39b1bf43"
+    },
+    {
+      "path": "python3-requests-ads.md",
+      "sha256": "f370a7249f810ec936b4f21834ef8e53eb6371f7a2c8f914b0c559a63bbab29f"
+    },
+    {
+      "path": "python3-requests-campaigns.md",
+      "sha256": "abd62e8521a95f784f87cc3da51c0b7c9b2cbcbaad9d87a2ca7aac6deb6cfd2a"
+    },
+    {
+      "path": "python3-requests-points.md",
+      "sha256": "5ab33f5405b83257c71ba09ddbbc30819f46cfff3aac7b8f7bb6406b85cba578"
+    },
+    {
+      "path": "python3-requests-token.md",
+      "sha256": "9540a43b8a0830ed7768a3514cfd8d36f9f92dbd2e2a208812b0000f4783ea61"
+    },
+    {
+      "path": "python3-soap.md",
+      "sha256": "1c7f8129a08ace44b8d817f965e5a7599395c1e0a9214e5fb01e326b6bca8afe"
+    },
+    {
+      "path": "python3-suds-ads.md",
+      "sha256": "f47da0bedf9fcb14879f5df54fb3791ad60e650a5d1dba805d13e047cd49c3cb"
+    },
+    {
+      "path": "python3-suds-campaigns.md",
+      "sha256": "1db66ba7a4953344882b21c60b600f125ba670c4140ad4ade617eab7df521c05"
+    },
+    {
+      "path": "python3-xml.md",
+      "sha256": "7ffee07ebd9033e232c59f12bdf8ae5dc3650313098b8af2b8a6a3f65e65c073"
+    },
+    {
+      "path": "python3.md",
+      "sha256": "e12590318bf0420587f3afd180ffe08dab9d53064939e8ee8e168b65b559b07b"
+    },
+    {
+      "path": "python3_pyxb_stat1.md",
+      "sha256": "3179c7e00ba18b79e62db723a24c666752bba8eeaf06bc2e2c3202e8e5a8f7ea"
+    },
+    {
+      "path": "python3_pyxb_stat2.md",
+      "sha256": "a035e60885883998da5b63bdf828ae6443e382ac2fe119d27aeb16edd4b474cf"
+    },
+    {
+      "path": "python3_requests_stat1.md",
+      "sha256": "fe54ade038f0dc6d1a55b20db24cc566d759c670fd04eaa5bb0fefc192099e18"
+    },
+    {
+      "path": "python3_requests_stat2.md",
+      "sha256": "4f1f75ad5a2851ae0623f01662e6020db3e90aa63c7924d5db556a3ef2428c63"
+    },
+    {
+      "path": "python3_requests_stat_agency.md",
+      "sha256": "c57c58f1e4ca1a700955b6adea4171a816cd299481c1ea6edafa7dad97204da7"
+    },
+    {
+      "path": "real-world.md",
+      "sha256": "d25167d919c6d73199fb96b66664a6deeb992d80865e130d4e095122e28d15dc"
+    },
+    {
+      "path": "register.md",
+      "sha256": "e595135f96048ab5e5feabbe449ff0c548de7043b3753beefddc1c84dab5f4e3"
+    },
+    {
+      "path": "report-format.md",
+      "sha256": "70d844c48f7e377c109014f2ee225aa1b13ed7be911ba1f2b3b935ad80cb458c"
+    },
+    {
+      "path": "restrictions.md",
+      "sha256": "aaa6a2e2f3c4a517da218cab8beecd7c694b8e4fe4e88da5a3a8e2de9b71155f"
+    },
+    {
+      "path": "retargetinglists/add.md",
+      "sha256": "d1103d8c873a3620619a53e5a3cfb9d76ac1d51a32b593e3350dd94d402a1f8f"
+    },
+    {
+      "path": "retargetinglists/delete.md",
+      "sha256": "6f32ee6858505fcdb477258a36f032adee850db5dafc4e25f901b359962ea5f9"
+    },
+    {
+      "path": "retargetinglists/get.md",
+      "sha256": "07e45e5be4d8de668e095802a632b07225dd185fb4c2b93e8d466e155a7386c4"
+    },
+    {
+      "path": "retargetinglists/retargetinglists.md",
+      "sha256": "d9296184099879e99cc0951fd60908c6c0d9b309aece56f503d077e18792c364"
+    },
+    {
+      "path": "retargetinglists/update.md",
+      "sha256": "ded4796db2e37d5ed832cf8e6977610aa25727a206b06c7bc5bfb5d8c9acd668"
+    },
+    {
+      "path": "sandbox.md",
+      "sha256": "15b855fccdfb708f681cb22c455a71fc02dd2d442b00f6e207586c57d2c5590f"
+    },
+    {
+      "path": "sitelinks/add.md",
+      "sha256": "cc55ce6023bd5ba3f12146992bf745166c8d77ca6ebc432f8a64938649ff1421"
+    },
+    {
+      "path": "sitelinks/delete.md",
+      "sha256": "33468bf85b4cc64279d1cd1addf5c546868fa339b0f7f28234219bf84a3e6777"
+    },
+    {
+      "path": "sitelinks/get.md",
+      "sha256": "533799b144f1b74c4bc8d41e069f1c84daf42d7840cf49a6bbe045138e29ca10"
+    },
+    {
+      "path": "sitelinks/sitelinks.md",
+      "sha256": "660cac13e6221dbaa7204084f619f07752e19c5cbecc9b36881831e322625f17"
+    },
+    {
+      "path": "smartadtargets/smartadtargets.md",
+      "sha256": "96c886adbed359b55afaa984c4dd889f31dbfa07bb3c40f5e8053f465fcef1b0"
+    },
+    {
+      "path": "spec.md",
+      "sha256": "5441a9cbd2f854f68862dcc9e32110d79f7a1e385c9d3d24a789d3911a97d755"
+    },
+    {
+      "path": "start.md",
+      "sha256": "9fee2b01dbc2de741c961e699604988c36e4103fb2c50f764ab4f38f4fea23fa"
+    },
+    {
+      "path": "strategies/archive.md",
+      "sha256": "f7b9b471dadcaa54c813cd5897196c99a5c7ee2e5cfe213dcc60088ca1daf029"
+    },
+    {
+      "path": "strategies/get.md",
+      "sha256": "b8c0f64d40485e9a7cb3995fa261075e00c34da9ec8a01f16ea2caef40f3b7dd"
+    },
+    {
+      "path": "strategies/unarchive.md",
+      "sha256": "92e08e7e88093a0000f05f58d07dd0f358408fc659198236ea080d90283dc60f"
+    },
+    {
+      "path": "strategies/update.md",
+      "sha256": "7a0cfdf6d989fbe66554e30e56674310237c8f01af5296b205dbaac0bd570f4d"
+    },
+    {
+      "path": "token.md",
+      "sha256": "62fbc13bd1da595aaa63837bb925f5d13e7e13d5afd5240b979c1ac7b69bee22"
+    },
+    {
+      "path": "troubleshooting/add-client.md",
+      "sha256": "9e85a9d48b3149d84962926ea01e4e75cf63172efee55a1bf85a1e49de725c70"
+    },
+    {
+      "path": "troubleshooting/issue.md",
+      "sha256": "ce6d68236f4ae2e4b4bc266aae4eab61ab7792318f120cdec03564450e5b8aa4"
+    },
+    {
+      "path": "troubleshooting/limits.md",
+      "sha256": "5dfa7f3a8d29db3ae74d73337016554a885a85d1bd8b53d0dddb223361cbd441"
+    },
+    {
+      "path": "troubleshooting/other.md",
+      "sha256": "43ac08ffe53ec8006d36f4ba96fbab5bf4d378115cd5c1f82ae9c0cc6d8ba782"
+    },
+    {
+      "path": "troubleshooting/proposal.md",
+      "sha256": "69ae0dd81b83be5c6d8819e3e4970ab7425ce97d9cef8354b4c3a1d5b8a2bd71"
+    },
+    {
+      "path": "troubleshooting/register.md",
+      "sha256": "a5cc3241ee1cd39694a77c3594cd77d0727d999d35fa9a3ba905c1fccbed1f8e"
+    },
+    {
+      "path": "turbopages/get.md",
+      "sha256": "e7811a34f70d1c93855de3d503da8bcf77cf4d77c57cbae945a49643fd0ae07e"
+    },
+    {
+      "path": "turbopages/turbopages.md",
+      "sha256": "1da6bbda1ab68214081e7d3063bbce152be5dc29dca46014d0c86b72e4ac7d2f"
+    },
+    {
+      "path": "type.md",
+      "sha256": "260e15e504cd35c4c085195d67eb9ad1048519583bbcf31316193f5b59f12f33"
+    },
+    {
+      "path": "vcards/add.md",
+      "sha256": "f5e4a371d4a5dd8d5728ee7faa0f0f2c5c5d64936fb365978cf93c2bd0459335"
+    },
+    {
+      "path": "vcards/delete.md",
+      "sha256": "398bef953ce0eb21d091d5d5d926e6536095ecdec1049c00df5d6f1f7e16dc49"
+    },
+    {
+      "path": "vcards/get.md",
+      "sha256": "fe5aa4abb1fd98c1ddcbe9eb737c3f5933b6e221e4089c525ff6449b6bac0a53"
+    },
+    {
+      "path": "vcards/vcards.md",
+      "sha256": "7909a00e6a775aa519ddca07c71d56a51313b27941ae56b60c1269a60ad2d2fa"
+    }
+  ]
+}
